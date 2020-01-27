@@ -85,7 +85,8 @@ int main() {
 `git checkout r1.15`
 
 
-### Make sure bazel-1.2.1 is installed and aliased over any other bazel installation
+### Make sure bazel-0.26.1 is installed and aliased over any other bazel installation (for tf1)
+###### (for tensorflow>=2.0.0 use bazel-1.2.1)
 https://docs.bazel.build/versions/master/install-ubuntu.html
 
 #### Add an alias to .bashrc to mask newer versions of bazel
